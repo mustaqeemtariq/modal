@@ -1,0 +1,21 @@
+@import "styles/colors.scss";
+
+.button {
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    &.primary {
+        background-color: $primary;
+        color: #fff;
+    }
+
+    &.secondary {
+        background-color: $neutral;
+        color: #000;
+    }
+}
